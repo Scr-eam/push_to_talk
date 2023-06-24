@@ -64,7 +64,7 @@ fn toggle_microphone(hwnd: HWND) {
     };
 }
 
-// this function will be used to window checking
+// this function will be used for window checking
 fn _get_window_title(hwnd: HWND) -> Result<String, ()> {
     let window_title: String;
 
